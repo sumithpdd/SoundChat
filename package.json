@@ -1,0 +1,19 @@
+{
+    "name": "soundchat",
+    "version": "1.0.0",
+    "description": "1. npm -v to echeck node is installed",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel ./src/index.html --no-cache",
+        "build": "parcel build ./src/index.html --out-dir build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.10.2",
+        "@babel/preset-env": "^7.10.2",
+        "gulp-babel": "^8.0.0",
+        "parcel-bundler": "^1.12.4"
+    }
+}
